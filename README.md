@@ -50,3 +50,8 @@ These steps assume that the database is already running. To edit the configurati
 3. To execute the app, navigate into `./target`
 4. Run `java -jar filename.jar` (Tips: Use `tab` to toggle auto-complete in Intellij terminal)
 5. To run multiple instances in different port, add `--server.port=PORT_NUMBER` flag
+
+### Custom Settings
+a. To reset the database for each run, uncomment `application.properties:6` and comment `application.properties:8` vice versa  
+
+b. To add mock data automatically for each run, uncomment `StudentConfig.java:16-36`  
